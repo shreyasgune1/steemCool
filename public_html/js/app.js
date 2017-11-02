@@ -53,7 +53,7 @@ function calcLevel(v) {
     }
     
 function setDefaultUserProfilePic() {
-        vm.$set(vm.userData, 'profile_image', 'https://avatars1.githubusercontent.com/u/21137788?s=400&v=4')
+        vm.$set(vm.userData, 'profile_image', 'https://www.gravatar.com/avatar/000000000000000000000000000000000?d=mm&amp;f=y')
     }
     
 function addCommas(x) {
